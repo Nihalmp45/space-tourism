@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import { Box } from '@chakra-ui/react';
 import './App.css';
+import { Home } from './Components/Home';
+import { Destination } from './Components/Destination';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box >
+        <Home/>
+        <Destination />
+    </Box>
   );
 }
 
 export default App;
+
+const boxMainStyles = {
+  m:'0',
+  h:'100vh',
+  w:'1920px',
+  backgroundImage:"url('Images/Home/background-home-desktop.jpg')",
+  backgroundRepeat:'no-repeat',
+  backgroundSize:'cover',
+  overFlowX:"hidden",
+}
