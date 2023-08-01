@@ -1,0 +1,89 @@
+
+.crew {
+background-image: url('../../public/Images/Crew/background-crew-desktop.jpg');
+background-repeat:no-repeat;
+background-size: cover;
+height:100%;
+margin:0px;
+width:100vw
+}
+
+.crew-left{
+    position: relative;
+    height: 73vh;
+    width:50%;
+    float: left;
+}
+
+.crew-number{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-family: 'barlow';
+    opacity: 0.4;
+    letter-spacing: 2px;
+    left: 125px;
+   
+}
+
+.crew-name{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 20px;
+    font-family: 'montserrat';
+    opacity: 0.9;
+    letter-spacing: 2px;
+    left: 150px;
+}
+
+.commander{
+    position: relative;
+    font-family: 'bellefair';
+    color: #FFF;
+    opacity: 0.3;
+    letter-spacing: 5px;
+    left: 125px;
+    top: 50px;
+    font-size: 30px;
+}
+
+.commander-name{
+    position: relative;
+    color: #FFF;
+    left: 120px;
+    top: 60px;
+    font-size: 60px;
+    font-family: 'montserrat';
+}
+
+.commander-description{
+    position: relative;
+    color: #D0D6F9;
+    left: 125px;
+    top: 80px;
+    letter-spacing: 4px;
+    width: 50rem;
+}
+
+.oval-group{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 120px;
+    top: 280px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.crew-right{
+    float: right;
+    position: relative;
+    width: 50%;
+    left: 100px;
+    height: 73vh;
+}
+
+.commander-image{
+    height: 71vh;
+}

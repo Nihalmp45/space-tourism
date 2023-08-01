@@ -1,22 +1,22 @@
 import { create } from "zustand"
 
-export const detailsStore = create((set)=>({
+export const useDetailsStore = create((set)=>({
 
   "destinations": [
     {
-      "name": "Moon",
+      "name": "MOON",
       "images": {
-        "png": "./assets/destination/image-moon.png",
-        "webp": "./assets/destination/image-moon.webp"
+        "png": "Images/Destination/image-moon.png",
+        "webp": "../../public/Images/Destination/image-moon.png"
       },
       "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
-      "distance": "384,400 km",
-      "travel": "3 days"
+      "distance": "384,400 KM",
+      "travel": "3 DAYS"
     },
     {
-      "name": "Mars",
+      "name": "MARS",
       "images": {
-        "png": "./assets/destination/image-mars.png",
+        "png": "Images/Destination/image-mars.png",
         "webp": "./assets/destination/image-mars.webp"
       },
       "description": "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
@@ -24,9 +24,9 @@ export const detailsStore = create((set)=>({
       "travel": "9 months"
     },
     {
-      "name": "Europa",
+      "name": "EUROPA",
       "images": {
-        "png": "./assets/destination/image-europa.png",
+        "png": "Images/Destination/image-europa.png",
         "webp": "./assets/destination/image-europa.webp"
       },
       "description": "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
@@ -34,9 +34,9 @@ export const detailsStore = create((set)=>({
       "travel": "3 years"
     },
     {
-      "name": "Titan",
+      "name": "TITAN",
       "images": {
-        "png": "./assets/destination/image-titan.png",
+        "png": "Images/Destination/image-titan.png",
         "webp": "./assets/destination/image-titan.webp"
       },
       "description": "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
@@ -46,9 +46,9 @@ export const detailsStore = create((set)=>({
   ],
   "crew": [
     {
-      "name": "Douglas Hurley",
+      "name": "DOUGLAS HURLEY",
       "images": {
-        "png": "./assets/crew/image-douglas-hurley.png",
+        "png": "Images/Crew/image-douglas-hurley.png",
         "webp": "./assets/crew/image-douglas-hurley.webp"
       },
       "role": "Commander",
@@ -57,7 +57,7 @@ export const detailsStore = create((set)=>({
     {
       "name": "Mark Shuttleworth",
       "images": {
-        "png": "./assets/crew/image-mark-shuttleworth.png",
+        "png": "Images/Crew/image-mark-shuttleworth.png",
         "webp": "./assets/crew/image-mark-shuttleworth.webp"
       },
       "role": "Mission Specialist",
@@ -66,7 +66,7 @@ export const detailsStore = create((set)=>({
     {
       "name": "Victor Glover",
       "images": {
-        "png": "./assets/crew/image-victor-glover.png",
+        "png": "Images/Crew//image-victor-glover.png",
         "webp": "./assets/crew/image-victor-glover.webp"
       },
       "role": "Pilot",
@@ -75,7 +75,7 @@ export const detailsStore = create((set)=>({
     {
       "name": "Anousheh Ansari",
       "images": {
-        "png": "./assets/crew/image-anousheh-ansari.png",
+        "png": "Images/Crew//image-anousheh-ansari.png",
         "webp": "./assets/crew/image-anousheh-ansari.webp"
       },
       "role": "Flight Engineer",

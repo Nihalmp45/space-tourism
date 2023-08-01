@@ -2,24 +2,17 @@ import { Box } from '@chakra-ui/react';
 import './App.css';
 import { Home } from './Components/Home';
 import { Destination } from './Components/Destination';
+import Crew from './Components/Crew';
 
 function App() {
   return (
     <Box >
         <Home/>
         <Destination />
+        <Crew />
     </Box>
   );
 }
 
 export default App;
 
-const boxMainStyles = {
-  m:'0',
-  h:'100vh',
-  w:'1920px',
-  backgroundImage:"url('Images/Home/background-home-desktop.jpg')",
-  backgroundRepeat:'no-repeat',
-  backgroundSize:'cover',
-  overFlowX:"hidden",
-}

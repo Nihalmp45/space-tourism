@@ -50,7 +50,7 @@ export const Home = () => {
             </div>
          </div>
          <div className='right-container'>
-            <img src='Images/Home/Group.png'></img>
+            <img src='Images/Home/Group.png' alt='group'></img>
          </div>
       </div>
     </div>
