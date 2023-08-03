@@ -3,38 +3,38 @@ import React from 'react'
 
 export const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' id='home'>
       <div >
         <Image src='Images/Home/Group2.png' p={'3.5rem'} />
          <Flex sx={flexStyles}>
             <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
               <Text as='span' fontWeight={'thick'} fontFamily={'fantasy'}>
-                00
+              <a className='bright-number' href='#home'>00</a>
               </Text>
               <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-                HOME
+                <a className='dim-names' href='#home'>HOME</a>
               </Text>
             </Text>
             <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
               <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-                01
+              <a className='bright-number' href='#destination'>01</a>
               </Text>
               <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-                Destination
+                <a className='dim-names' href='#destination'>Destination</a>
               </Text>
             </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
               <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-                02
+              <a className='bright-number' href='#crew'>02</a>
               </Text>
               <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-                CREW
+              <a className='dim-names' href='#crew'>CREW</a>
               </Text>
             </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
               <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-                03
+              <a className='bright-number' href='#technology'>03</a>
               </Text>
               <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-                TECHNOLOGY
+              <a className='dim-names' href='#technology'>TECHNOLOGY</a>
               </Text>
             </Text>
          </Flex>

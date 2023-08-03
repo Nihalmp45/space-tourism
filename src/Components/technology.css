@@ -1,0 +1,66 @@
+.technology {
+    background-image: url('../../public/Images/Technology/background-technology-desktop.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:100%;
+    margin:0px;
+    width:100vw
+    }
+
+.technology-terminology{
+    position: relative;
+    font-family: 'bellefair';
+    color: #FFF;
+    opacity: 0.3;
+    letter-spacing: 5px;
+    left: 300px;
+    top: 110px;
+    font-size: 30px;
+}
+
+.technology-name{
+    position: relative;
+    color: #FFF;
+    left: 300px;
+    top: 140px;
+    font-size: 60px;
+    font-family: 'montserrat';
+}
+
+.technology-description{
+    position: relative;
+    color: #D0D6F9;
+    left: 300px;
+    top: 150px;
+    letter-spacing: 4px;
+    width: 35rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height:270px;
+    justify-content: space-between;
+    position: relative;
+    left: 120px;
+    bottom: 130px;
+}
+
+.navigating-circle-inactive{
+    opacity: 0.8;
+}
+
+.technology-right{
+    float: right;
+    position: relative;
+    width: 50%;
+    left: 100px;
+    height: 73vh;
+}
+
+.technology-image{
+    position: relative;
+    left: 200px;
+}

@@ -8,41 +8,41 @@ export const Destination = () => {
   
   return (
     <>
-    <div className='destination'>
-        <div >
-            <Image src='Images/Home/Group2.png' p={'3.5rem'} />
-            <Flex sx={flexStyles}>
+    <div className='destination' id='destination'>
+        <div id='moon'>
+        <Image src='Images/Home/Group2.png' p={'3.5rem'} />
+         <Flex sx={flexStyles}>
             <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-            <Text as='span' fontWeight={'thick'} fontFamily={'fantasy'}>
-              00
-            </Text>
-            <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-              HOME
-            </Text>
+              <Text as='span' fontWeight={'thick'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#home'>00</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+                <a className='dim-names' href='#home'>HOME</a>
+              </Text>
             </Text>
             <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-            <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-              01
-            </Text>
-            <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-              Destination
-            </Text>
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#destination'>01</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+                <a className='dim-names' href='#destination'>Destination</a>
+              </Text>
             </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-            <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-              02
-            </Text>
-            <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-              CREW
-            </Text>
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#crew'>02</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+              <a className='dim-names' href='#crew'>CREW</a>
+              </Text>
             </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-            <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-              03
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#technology'>03</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+              <a className='dim-names' href='#technology'>TECHNOLOGY</a>
+              </Text>
             </Text>
-            <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-              TECHNOLOGY
-            </Text>
-            </Text>
-            </Flex>
+         </Flex>
         </div>
         <div className='destination-left'>
             <span className='heading-number'>
@@ -55,10 +55,10 @@ export const Destination = () => {
         </div>
         <div className='destination-right'>
           <div className='planet-names'>
-              <div >MOON</div>
-              <div >MARS</div>
-              <div >EUROPA</div>
-              <div >TITAN</div>
+             <a className='bright-number' href='#moon'>MOON </a>
+             <a className='bright-number' href='#mars'>MARS</a>
+             <a className='bright-number' href='#europa'>EUROPA</a>
+             <a className='bright-number' href='#titan'>TITAN</a>
           </div>
           <div className='right-bottom-container'>
             <div className='planet-styles'>
@@ -88,42 +88,42 @@ export const Destination = () => {
             
 {/* MARS DESTINATION */}
 
-       </div>
+       </div >
        <div className='destination'>
-       <div >
-           <Image src='Images/Home/Group2.png' p={'3.5rem'} />
-           <Flex sx={flexStyles}>
-           <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'thick'} fontFamily={'fantasy'}>
-             00
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             HOME
-           </Text>
-           </Text>
-           <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-             01
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             Destination
-           </Text>
-           </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-             02
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             CREW
-           </Text>
-           </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-             03
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             TECHNOLOGY
-           </Text>
-           </Text>
-           </Flex>
+       <div id='mars'>
+       <Image src='Images/Home/Group2.png' p={'3.5rem'} />
+         <Flex sx={flexStyles}>
+            <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'thick'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#home'>00</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+                <a className='dim-names' href='#home'>HOME</a>
+              </Text>
+            </Text>
+            <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#destination'>01</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+                <a className='dim-names' href='#destination'>Destination</a>
+              </Text>
+            </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#crew'>02</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+              <a className='dim-names' href='#crew'>CREW</a>
+              </Text>
+            </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#technology'>03</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+              <a className='dim-names' href='#technology'>TECHNOLOGY</a>
+              </Text>
+            </Text>
+         </Flex>
        </div>
        <div className='destination-left'>
            <span className='heading-number'>
@@ -136,10 +136,10 @@ export const Destination = () => {
        </div>
        <div className='destination-right'>
          <div className='planet-names'>
-             <div >MOON</div>
-             <div >MARS</div>
-             <div >EUROPA</div>
-             <div >TITAN</div>
+             <a className='bright-number' href='#moon'>MOON </a>
+             <a className='bright-number' href='#mars'>MARS</a>
+             <a className='bright-number' href='#europa'>EUROPA</a>
+             <a className='bright-number' href='#titan'>TITAN</a>
          </div>
          <div className='right-bottom-container'>
            <div className='planet-styles'>
@@ -174,40 +174,40 @@ export const Destination = () => {
 
 
        <div className='destination'>
-       <div >
-           <Image src='Images/Home/Group2.png' p={'3.5rem'} />
-           <Flex sx={flexStyles}>
-           <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'thick'} fontFamily={'fantasy'}>
-             00
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             HOME
-           </Text>
-           </Text>
-           <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-             01
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             Destination
-           </Text>
-           </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-             02
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             CREW
-           </Text>
-           </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-             03
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             TECHNOLOGY
-           </Text>
-           </Text>
-           </Flex>
+       <div id='europa' >
+       <Image src='Images/Home/Group2.png' p={'3.5rem'} />
+         <Flex sx={flexStyles}>
+            <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'thick'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#home'>00</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+                <a className='dim-names' href='#home'>HOME</a>
+              </Text>
+            </Text>
+            <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#destination'>01</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+                <a className='dim-names' href='#destination'>Destination</a>
+              </Text>
+            </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#crew'>02</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+              <a className='dim-names' href='#crew'>CREW</a>
+              </Text>
+            </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#technology'>03</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+              <a className='dim-names' href='#technology'>TECHNOLOGY</a>
+              </Text>
+            </Text>
+         </Flex>
        </div>
        <div className='destination-left'>
            <span className='heading-number'>
@@ -220,10 +220,10 @@ export const Destination = () => {
        </div>
        <div className='destination-right'>
          <div className='planet-names'>
-             <div >MOON</div>
-             <div >MARS</div>
-             <div >EUROPA</div>
-             <div >TITAN</div>
+             <a className='bright-number' href='#moon'>MOON </a>
+             <a className='bright-number' href='#mars'>MARS</a>
+             <a className='bright-number' href='#europa'>EUROPA</a>
+             <a className='bright-number' href='#titan'>TITAN</a>
          </div>
          <div className='right-bottom-container'>
            <div className='planet-styles'>
@@ -258,40 +258,40 @@ export const Destination = () => {
 
 
       <div className='destination'>
-       <div >
-           <Image src='Images/Home/Group2.png' p={'3.5rem'} />
-           <Flex sx={flexStyles}>
-           <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'thick'} fontFamily={'fantasy'}>
-             00
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             HOME
-           </Text>
-           </Text>
-           <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-             01
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             Destination
-           </Text>
-           </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-             02
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             CREW
-           </Text>
-           </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
-           <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
-             03
-           </Text>
-           <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
-             TECHNOLOGY
-           </Text>
-           </Text>
-           </Flex>
+       <div id='titan' >
+       <Image src='Images/Home/Group2.png' p={'3.5rem'} />
+         <Flex sx={flexStyles}>
+            <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'thick'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#home'>00</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+                <a className='dim-names' href='#home'>HOME</a>
+              </Text>
+            </Text>
+            <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#destination'>01</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+                <a className='dim-names' href='#destination'>Destination</a>
+              </Text>
+            </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#crew'>02</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+              <a className='dim-names' href='#crew'>CREW</a>
+              </Text>
+            </Text> <Text cursor={'pointer'} p={'1rem'} letterSpacing={'2px'} >
+              <Text as='span' fontWeight={'bold'} fontFamily={'fantasy'}>
+              <a className='bright-number' href='#technology'>03</a>
+              </Text>
+              <Text as='span' fontWeight={'thin'} opacity={'0.7'} paddingLeft={'12px'} fontFamily={'fantasy'}>
+              <a className='dim-names' href='#technology'>TECHNOLOGY</a>
+              </Text>
+            </Text>
+         </Flex>
        </div>
        <div className='destination-left'>
            <span className='heading-number'>
@@ -304,10 +304,10 @@ export const Destination = () => {
        </div>
        <div className='destination-right'>
          <div className='planet-names'>
-             <div >MOON</div>
-             <div >MARS</div>
-             <div >EUROPA</div>
-             <div >TITAN</div>
+             <a className='bright-number' href='#moon'>MOON </a>
+             <a className='bright-number' href='#mars'>MARS</a>
+             <a className='bright-number' href='#europa'>EUROPA</a>
+             <a className='bright-number' href='#titan'>TITAN</a>
          </div>
          <div className='right-bottom-container'>
            <div className='planet-styles'>
